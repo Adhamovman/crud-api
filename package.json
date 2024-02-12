@@ -1,0 +1,23 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "description": "Simple API for interacting with the CRUD API",
+  "type": "module",
+  "scripts": {
+    "start:dev": "nodemon dist/server.js",
+    "start:prod": "tsc & node dist/server.js",
+    "start:multi": "tsc & node dist/cluster.js"
+  },
+  "keywords": [],
+  "author": "https://github.com/Adhamovman",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.17",
+    "dotenv": "^16.4.1",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2"
+  }
+}
